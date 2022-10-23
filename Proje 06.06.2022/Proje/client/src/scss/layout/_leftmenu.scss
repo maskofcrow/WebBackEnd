@@ -1,0 +1,328 @@
+///// Sol Menu
+#TheLeftMenu {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px 0px 0px;
+    height: 100%;
+    width: 15%;
+    &.wide {
+        min-width: 192px;
+        max-width: 210px;
+    }
+    &.narrow {
+        min-width: 38px;
+        max-width: 42px;
+        margin-right: 12px;
+        margin-bottom: 5px;
+        background-color: var(--shadow-color);
+        box-shadow: 0px 0px 6px black;
+    }
+    .minimizedMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .minimizedRow {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .minimizedRow:hover {
+        background-color: var(--shadow-color);
+    }
+    .minimizedIcon {
+        width: 55%;
+        height: 55%;
+        @include themify($themes) {
+            color: themed(secondary-color);
+        }
+    }
+    .minimizedIcon.minner {
+        @include themify($themes) {
+            color: themed(primary-color);
+        }
+    }
+    .minimizedRow:hover .minimizedIcon {
+        width: 70%;
+        height: 70%;
+        cursor: pointer;
+        @include themify($themes) {
+            color: themed(primary-color);
+        }
+    }
+    .ghost {
+        opacity: 0.5;
+        background: #c8ebfb;
+    }
+    #LeftUserPanel {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        box-shadow: 0px 2px 2px 0px var(--shadow-color);
+    }
+    .sort-checker {
+        align-self: center;
+        height: 16px;
+        width: 16px;
+        margin: 6px;
+        padding: 4px;
+        @include themify($themes) {
+            border: 1px solid themed(secondary-color);
+            background-color: var(--sortchecker-bg-color);
+            color: themed(secondary-color);
+        }
+    }
+    .sort-enabled,
+    .sort-checker:hover {
+        cursor: pointer;
+        @include themify($themes) {
+            border: 1px solid themed(primary-color);
+            background-color: var(--sortchecker-bgActive-color);
+        }
+    }
+    .mini-menu {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 40px;
+        background-color: var(--minimenu-bg-color);
+    }
+    .themeManageroff {
+        height: 0px;
+        transition: height 0.3s linear;
+    }
+    .themeManageron {
+        height: 100px;
+        transition: height 0.3s linear;
+    }
+    .themebuttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50px;
+    }
+    .themeManager {
+        overflow: hidden;
+        background-color: var(--thememanager-bg-color);
+        .lightdark {
+            .lightdarkbox {
+                display: flex;
+                align-items: center;
+                padding: 4px 10px;
+                font-size: 13px;
+                font-weight: 500;
+                border-radius: 10px;
+                border: 2px solid var(--TMSwitch-border-color);
+                background-color: var(--TMSwitch-bg-color);
+            }
+            height: 50px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--TMSwitch-text-color);
+        }
+        .button {
+            /* [ Botton ] */
+            height: 35px;
+            width: 35px;
+            cursor: pointer;
+            background-color: #f1f1f1;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 0px -1px 1px rgba(255, 255, 255, 0.5);
+            color: #444;
+            /* Transitions */
+            -moz-transition: 0.4s ease-out;
+            -webkit-transition: 0.4s ease-out;
+            -o-transition: 0.4s ease-out;
+            -ms-transition: 0.4s ease-out;
+            -khtml-transition: 0.4s ease-out;
+            transition: 0.4s ease-out;
+            /* {{ No selectable }} */
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -o-user-select: none;
+            -ms-user-select: none;
+            -khtml-user-select: none;
+            /*[{- Border radius -}]*/
+            border-radius: 50px;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -khtml-border-radius: 50px;
+            -o-border-radius: 50px;
+        }
+        .button:hover {
+            color: #333;
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+        .button div {
+            -moz-transition: 0.4s ease-out;
+            -webkit-transition: 0.4s ease-out;
+            -o-transition: 0.4s ease-out;
+            -ms-transition: 0.4s ease-out;
+            -khtml-transition: 0.4s ease-out;
+            transition: 0.4s ease-out;
+        }
+        /*.button:active {
+        margin-top: 4px;
+        color: #777;
+        border: 1px solid #999;
+        box-shadow: inset 0 0 5px 0 #333;
+        -moz-box-shadow: inset 0 0 5px 0 #333;
+        -webkit-box-shadow: inset 0 1px 2px 0 #333, 0 1px 1px 0 #fff;
+    }*/
+        .text-shadow-negra {
+            text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);
+        }
+        .red {
+            color: #0c0c0c;
+            background-image: -moz-linear-gradient( -45deg, #e6b800 50%, #bc2121 50%);
+            background-image: -webkit-linear-gradient( -45deg, #e6b800 50%, #bc2121 50%);
+            background-image: -o-linear-gradient( -45deg, #e6b800 50%, #bc2121 50%);
+            background-image: -khtml-linear-gradient( -45deg, #e6b800 50%, #bc2121 50%);
+            background-image: -ms-linear-gradient( -45deg, #e6b800 50%, #bc2121 50%);
+            background-image: linear-gradient(-45deg, #e6b800 50%, #bc2121 50%);
+        }
+        .green {
+            color: #0c0c0c;
+            background-image: -moz-linear-gradient( -45deg, #fff 50%, #008025 50%);
+            background-image: -webkit-linear-gradient( -45deg, #fff 50%, #008025 50%);
+            background-image: -o-linear-gradient(-45deg, #fff 50%, #008025 50%);
+            background-image: -khtml-linear-gradient( -45deg, #fff 50%, #008025 50%);
+            background-image: -ms-linear-gradient( -45deg, #fff 50%, #008025 50%);
+            background-image: linear-gradient(-45deg, #fff 50%, #008025 50%);
+        }
+        .blue {
+            color: #0c0c0c;
+            background-image: -moz-linear-gradient( -45deg, #fc0 50%, #204e57 50%);
+            background-image: -webkit-linear-gradient( -45deg, #fc0 50%, #204e57 50%);
+            background-image: -o-linear-gradient(-45deg, #fff 50%, #204e57 50%);
+            background-image: -khtml-linear-gradient( -45deg, #fc0 50%, #204e57 50%);
+            background-image: -ms-linear-gradient( -45deg, #fc0 50%, #204e57 50%);
+            background-image: linear-gradient(-45deg, #fc0 50%, #204e57 50%);
+        }
+        .black {
+            color: #0c0c0c;
+            background-image: -moz-linear-gradient( -45deg, #fbd628 50%, #333 50%);
+            background-image: -webkit-linear-gradient( -45deg, #fbd628 50%, #333 50%);
+            background-image: -o-linear-gradient(-45deg, #fbd628 50%, #333 50%);
+            background-image: -khtml-linear-gradient( -45deg, #fbd628 50%, #333 50%);
+            background-image: -ms-linear-gradient( -45deg, #fbd628 50%, #333 50%);
+            background-image: linear-gradient(-45deg, #333 50%, #fbd628 50%);
+        }
+    }
+    .myAccountGroupTitle {
+        padding: 11px 10px 11px;
+        font-size: 13px;
+        font-weight: bold;
+        position: relative;
+        @include themify($themes) {
+            color: themed(lmenugroup-title-color);
+            background-color: var(--lmenugroup-bg-color);
+            border-bottom: 2px solid themed(primary-color);
+        }
+    }
+    .excol-icon {
+        position: relative;
+    }
+    .excol-icon:hover {
+        cursor: pointer;
+    }
+}
+
+.MenuGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 5px 0px;
+    .GroupTitle {
+        padding: 11px 10px 11px;
+        font-size: 13px;
+        font-weight: bold;
+        position: relative;
+        @include themify($themes) {
+            color: themed(lmenugroup-title-color);
+            background-color: var(--lmenugroup-bg-color);
+            border-bottom: 2px solid themed(primary-color);
+        }
+    }
+    .sorter {
+        float: right;
+    }
+    .sorter-up {
+        margin-right: 3px;
+        position: relative;
+        top: 3px;
+    }
+    .sorter-down {
+        margin-left: 3px;
+        position: relative;
+        top: -3px;
+    }
+    .sorter-up:hover {
+        cursor: pointer;
+    }
+    .sorter-down:hover {
+        cursor: pointer;
+    }
+    .excol-icon {
+        position: relative;
+    }
+    .excol-icon:hover {
+        cursor: pointer;
+    }
+}
+
+.MenuLinkOuter {
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px var(--lmenulink-shadow-color);
+    @include themify($themes) {
+        color: themed(lmenulink-text-color);
+    }
+    .MenuLink {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        padding: 6px 10px 6px 10px;
+        text-decoration: none;
+        //height: 18px;
+        background-color: var(--lmenulink-bg-color);
+        border-bottom: 1px solid var(--lmenulink-borderbottom-color);
+        border-top: 1px solid var(--lmenulink-bordertop-color);
+    }
+    .faicon {
+        width: 14px;
+        height: 14px;
+        padding: 9px 8px 8px 9px;
+        background-color: var(--lmenulinkfaicon-bg-color);
+        color: var(--lmenulinkfaicon-text-color);
+        border-right: 1px solid var(--lmenulinkfaicon-border-color);
+        border-bottom: 1px solid var(--lmenulinkfaicon-border-color);
+    }
+}
+
+.MenuLinkOuter:hover .MenuLink {
+    border-color: var(--lmenulinkhover-border-color);
+    box-shadow: 0px 0px 5px var(--lmenulinkhover-border-color) inset;
+    background-color: var(--lmenulinkhover-bg-color);
+    @include themify($themes) {
+        color: themed(secondary-color);
+    }
+}
+
+.MenuLinkOuter:hover .faicon {
+    color: var(--lmenulinkfaiconhover-text-color);
+    width: 18px;
+    height: 18px;
+    padding: 7px 6px 6px 7px;
+}

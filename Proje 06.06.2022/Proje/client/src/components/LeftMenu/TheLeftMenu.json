@@ -1,0 +1,143 @@
+[{
+        "title": "administration",
+        "innerlist": [{
+                "name": "TheLeftMenu.administration.newadmin",
+                "faicon": "fa-user-plus",
+                "link": "#",
+                "order": "1"
+            },
+            {
+                "name": "TheLeftMenu.administration.myadmins",
+                "faicon": "fa-users",
+                "link": "#",
+                "order": "2"
+            },
+            {
+                "name": "TheLeftMenu.administration.system-settings",
+                "faicon": "fa-cog",
+                "link": "#",
+                "order": "3"
+            },
+            {
+                "name": "TheLeftMenu.administration.balance-log",
+                "faicon": "fa-coins",
+                "link": "#",
+                "order": "4"
+            },
+            {
+                "name": "TheLeftMenu.administration.account-log",
+                "faicon": "fa-id-badge",
+                "link": "#",
+                "order": "5"
+            },
+            {
+                "name": "TheLeftMenu.administration.action-log",
+                "faicon": "fa-clipboard-list",
+                "link": "#",
+                "order": "6"
+            },
+            {
+                "name": "TheLeftMenu.administration.coupon-trash",
+                "faicon": "fa-trash-alt",
+                "link": "#",
+                "order": "7"
+            },
+            {
+                "name": "TheLeftMenu.administration.massdelete-coupon",
+                "faicon": "fa-dumpster",
+                "link": "#",
+                "order": "8"
+            },
+            {
+                "name": "TheLeftMenu.administration.coupon-analyze",
+                "faicon": "fa-chart-pie",
+                "link": "#",
+                "order": "9"
+            }
+        ]
+    },
+    {
+        "title": "manage-games",
+        "innerlist": [{
+                "name": "TheLeftMenu.manage-games.manage-matches",
+                "faicon": "fa-futbol",
+                "link": "#",
+                "order": "1"
+            },
+            {
+                "name": "TheLeftMenu.manage-games.manage-virtual",
+                "faicon": "fa-gamepad",
+                "link": "#",
+                "order": "2"
+            },
+            {
+                "name": "TheLeftMenu.manage-games.manage-casino",
+                "faicon": "fa-dice",
+                "link": "#",
+                "order": "3"
+            }
+        ]
+    },
+    {
+        "title": "other-settings",
+        "innerlist": [{
+                "name": "TheLeftMenu.other-settings.all-network",
+                "faicon": "fa-server",
+                "link": "#",
+                "order": "1"
+            },
+            {
+                "name": "TheLeftMenu.other-settings.announcements",
+                "faicon": "fa-bullhorn",
+                "link": "#",
+                "order": "2"
+            },
+            {
+                "name": "TheLeftMenu.other-settings.ip-lookup",
+                "faicon": "fa-question-circle",
+                "link": "#",
+                "order": "3"
+            },
+            {
+                "name": "TheLeftMenu.other-settings.online-users",
+                "faicon": "fa-network-wired",
+                "link": "#",
+                "order": "4"
+            }
+        ]
+    },
+    {
+        "title": "boss-settings",
+        "innerlist": [{
+                "name": "TheLeftMenu.boss-settings.fix-result",
+                "faicon": "fa-user-shield",
+                "link": "#",
+                "order": "1"
+            },
+            {
+                "name": "TheLeftMenu.boss-settings.fix-result-live",
+                "faicon": "fa-user-shield",
+                "link": "#",
+                "order": "2"
+            },
+            {
+                "name": "TheLeftMenu.boss-settings.coupon-reports",
+                "faicon": "fa-user-shield",
+                "link": "#",
+                "order": "3"
+            },
+            {
+                "name": "TheLeftMenu.boss-settings.massedit-coupon",
+                "faicon": "fa-user-shield",
+                "link": "#",
+                "order": "4"
+            },
+            {
+                "name": "TheLeftMenu.boss-settings.bultenapi",
+                "faicon": "fa-user-shield",
+                "link": "#",
+                "order": "5"
+            }
+        ]
+    }
+]

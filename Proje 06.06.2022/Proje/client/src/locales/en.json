@@ -1,0 +1,70 @@
+{
+    "home": "Home",
+    "welcome-message": "Welcome to Your Vue.js App",
+    "about": "About",
+    "about-message": "Welcome to our about page!",
+    "TheNavbar": {
+        "bulten": "Sport Bets",
+        "canli": "Live Bets",
+        "sanal": "Virtual Football",
+        "casino": "Casino",
+        "rulet": "Roulette",
+        "tombala": "Bingo",
+        "tumkupon": "My Slips",
+        "tv": "Live TV",
+        "sonuc": "Match Results",
+        "lang": "Lang",
+        "slot": "SLOT"
+    },
+    "TheInfobar": {
+        "greeting": "Welcome,",
+        "atype": "Account Type",
+        "balance": "Balance",
+        "aday": "Account Days Left",
+        "online": "Active Members",
+        "system": "System Time",
+        "lang": "System Language",
+        "logoalt": "Just Do It!",
+        "exit": "Safe Exit",
+        "logoimgalt": "İnsanın en iyisi, başkalarına en faydalı olanıdır."
+    },
+    "TheLeftMenu": {
+        "account-menu-title": "My Account",
+        "account-settings": "Account Settings",
+        "theme-manager": "Theme Manager",
+        "personalize": "Personalize",
+        "administration": {
+            "title": "Administration",
+            "newadmin": "New Admin",
+            "myadmins": "My Admins",
+            "system-settings": "System Settings",
+            "balance-log": "Balance Logs",
+            "account-log": "Account Logs",
+            "action-log": "Action Logs",
+            "coupon-trash": "Slip Trash",
+            "massdelete-coupon": "Mass Delete Slips",
+            "coupon-analyze": "Analyze Slips"
+        },
+        "manage-games": {
+            "title": "Game Settings",
+            "manage-matches": "Manage Matches & Odds",
+            "manage-virtual": "Manage Virtual Sports",
+            "manage-casino": "Manage Casino"
+        },
+        "other-settings": {
+            "title": "Other Settings",
+            "all-network": "All Network",
+            "announcements": "Announcements",
+            "ip-lookup": "Lookup IP",
+            "online-users": "Online Users"
+        },
+        "boss-settings": {
+            "title": "Boss Settings",
+            "fix-result": "Sonuç Girişi",
+            "fix-result-live": "Canlı Sonuç Girişi",
+            "coupon-reports": "Hatalı Kupon Bildirimleri",
+            "massedit-coupon": "Toplu Kupon Düzenleme",
+            "bultenapi": "Bülten API"
+        }
+    }
+}

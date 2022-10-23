@@ -1,0 +1,138 @@
+$themes: (
+    red: (
+        primary-color: #bc2121,
+        secondary-color: #e6b800,
+        navlink-text-color: #fff,
+        infobar-bg-color: #f0f0f0,
+        infotab-bg-color: #fff,
+        logo-text-color: #111,
+        logo-texth-color: #666,
+    ),
+    blue: (
+        background-color: #444,
+        shadow-color: #000,
+    ),
+);
+
+:root {
+    //main
+    --primary-color: #bc2121;
+    --secondary-color: #e6b800;
+    --shadow-color: #000; //ld
+    --background-color: #444; //ld
+
+    //header
+    --navlink-text-color: #fff;
+    --infobar-bg-color: #f0f0f0;
+    --infotab-bg-color: #fff;
+    --logo-text-color: #111;
+    --logo-texth-color: #666;
+
+    --lang-texth-color: #f0f0f0;
+    --lang-text-color: #000;
+    --lang-bg-color: #f0f0f0;
+    --lang-bgh-color: #666;
+
+    //solmenu
+    --lmenulink-text-color: #f0f0f0; //ld
+    --lmenulink-bg-color: #222; //ld
+    --lmenulink-shadow-color: #000; //ld
+    --lmenulink-borderbottom-color: #111; //ld
+    --lmenulink-bordertop-color: #303030; //ld
+
+    --lmenulinkhover-bg-color: #111; //ld
+    --lmenulinkhover-border-color: #000; //ld
+    --lmenulinkfaiconhover-text-color: #fff; //ld
+
+    --lmenulinkfaicon-text-color: #666; //ld
+    --lmenulinkfaicon-bg-color: #111; //ld
+    --lmenulinkfaicon-border-color: #000; //ld
+
+    --lmenugroup-title-color: #e6b800;
+    --lmenugroup-bg-color: #111; //ld
+
+    --sortchecker-bg-color: #111; //ld
+    --sortchecker-bgActive-color: #000; //ld
+
+    --minimenu-bg-color: #111; //ld
+
+    --thememanager-bg-color: #111; //ld
+    --TMSwitch-bg-color: #000; //ld
+    --TMSwitch-text-color: #f0f0f0; //ld
+}
+
+[data-theme="light"] {
+    --background-color: #fff;
+    --shadow-color: #f0f0f0;
+    --lmenulink-text-color: #333;
+    --lmenulink-bg-color: #fff;
+    --lmenulink-shadow-color: #f0f0f0;
+    --lmenulink-borderbottom-color: #ccc;
+    --lmenulink-bordertop-color: #fff;
+    --lmenulinkhover-bg-color: #fafafb;
+    --lmenulinkhover-border-color: #000;
+    --lmenulinkfaiconhover-text-color: #000;
+    --lmenulinkfaicon-text-color: #666;
+    --lmenulinkfaicon-bg-color: #dfdfdf;
+    --lmenulinkfaicon-border-color: #ccc;
+    --lmenugroup-title-color: #222;
+    --lmenugroup-bg-color: #f2f2f2;
+    --sortchecker-bg-color: #888;
+    --sortchecker-bgActive-color: #fff;
+    --minimenu-bg-color: #f2f2f2;
+    --thememanager-bg-color: #dfdfdf;
+    --TMSwitch-bg-color: #fff;
+    --TMSwitch-text-color: #000;
+}
+
+[data-theme="blue"] {
+    //main
+    --primary-color: #204e57;
+    --secondary-color: #fc0;
+    --shadow-color: #000; //ld
+    --background-color: #444; //ld
+
+    //header
+    --navlink-text-color: #fff;
+    --infobar-bg-color: #fc0;
+    --infotab-bg-color: #fff;
+    --logo-text-color: #111;
+    --logo-texth-color: #666;
+
+    --lang-texth-color: #f0f0f0;
+    --lang-text-color: #000;
+    --lang-bg-color: #f0f0f0;
+    --lang-bgh-color: #666;
+
+    //solmenu
+    --lmenulink-text-color: #f0f0f0; //ld
+    --lmenulink-bg-color: #222; //ld
+    --lmenulink-shadow-color: #000; //ld
+    --lmenulink-borderbottom-color: #111; //ld
+    --lmenulink-bordertop-color: #303030; //ld
+
+    --lmenulinkhover-bg-color: #111; //ld
+    --lmenulinkhover-border-color: #000; //ld
+    --lmenulinkfaiconhover-text-color: #fff; //ld
+
+    --lmenulinkfaicon-text-color: #666; //ld
+    --lmenulinkfaicon-bg-color: #111; //ld
+    --lmenulinkfaicon-border-color: #000; //ld
+
+    --lmenugroup-title-color: #e6b800;
+    --lmenugroup-bg-color: #111; //ld
+
+    --sortchecker-bg-color: #111; //ld
+    --sortchecker-bgActive-color: #000; //ld
+
+    --minimenu-bg-color: #111; //ld
+
+    --thememanager-bg-color: #111; //ld
+    --TMSwitch-bg-color: #000; //ld
+    --TMSwitch-text-color: #f0f0f0; //ld
+}
+
+/*
+    --primary-color: #204e57;
+    --secondary-color: #fc0;
+*/

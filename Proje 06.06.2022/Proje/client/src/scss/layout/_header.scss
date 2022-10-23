@@ -1,0 +1,158 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+///// NAVBAR
+#TheNavbar {
+    display: flex;
+    @include themify($themes) {
+        background-color: themed("primary-color");
+    }
+}
+
+///// NAVBAR LINK
+.navlink a:hover {
+    background-color: #ffffff26;
+    @include themify($themes) {
+        color: themed("secondary-color");
+        border-bottom: 5px solid themed("secondary-color");
+    }
+}
+
+.navlink a {
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px 12px 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), 0px 10px 15px rgba(255, 255, 255, 0.2) inset, 0px 22px 0px rgba(255, 255, 255, 0.1) inset;
+    @include themify($themes) {
+        border-left: 1px solid themed("primary-color");
+        border-bottom: 5px solid themed("primary-color");
+        color: themed("navlink-text-color");
+        background-color: themed("primary-color");
+        border-right: 1px solid themed("primary-color");
+    }
+}
+
+.navlink a:active,
+.navlink a.router-link-exact-active {
+    @include themify($themes) {
+        border-bottom: 5px solid themed("secondary-color");
+    }
+    box-shadow: none;
+}
+
+.navlink .faicon {
+    margin-right: 5px;
+    font-size: 20px;
+    @include themify($themes) {
+        color: themed("secondary-color");
+    }
+}
+
+///// INFOBAR
+#TheInfobar {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    font-size: 13px;
+    line-height: 1.5;
+    @include themify($themes) {
+        background-color: themed(infobar-bg-color);
+    }
+}
+
+#TheInfobar .infotab {
+    border-radius: 3px;
+    box-shadow: 0 0 5px #ccc;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 0 15px;
+    background: var(--infotab-bg-color);
+}
+
+#TheInfobar .infotab .infotab-alt {
+    font-weight: 600;
+    @include themify($themes) {
+        color: themed(primary-color);
+    }
+}
+
+///// INFOBAR LOGO
+#Logo {
+    font-size: 40px;
+    font-family: "Arsenal", sans-serif;
+    font-weight: 600;
+    letter-spacing: -1px;
+    float: left;
+    height: 55px;
+    margin-left: 0px;
+    margin-right: 20px;
+    line-height: 55px;
+    padding: 0px 30px 0px;
+    position: relative;
+    @include themify($themes) {
+        color: themed(logo-text-color);
+    }
+}
+
+#Logo a:hover {
+    @include themify($themes) {
+        color: themed(logo-text-colorhover);
+    }
+}
+
+#Logo a {
+    color: inherit;
+    text-decoration: none;
+}
+
+///// INFOBAR LANGPANEL
+#LangPanel .langspan {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    @include themify($themes) {
+        color: themed(primary-color);
+    }
+}
+
+#LangPanel .langa {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    padding: 8px 12px;
+    color: var(--lang-text-color);
+    //margin: 8px 12px;
+    cursor: pointer;
+}
+
+#LangPanel .langa:hover {
+    background-color: var(--lang-bg-colorhover);
+    color: var(--lang-text-colorhover);
+}
+
+#LangPanel .langspan-content {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    min-width: 140px;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: -15px;
+    top: 85px;
+    background-color: var(--lang-bg-color);
+}

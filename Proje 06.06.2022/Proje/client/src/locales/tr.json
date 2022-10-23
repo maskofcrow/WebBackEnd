@@ -1,0 +1,70 @@
+{
+    "home": "Ana Sayfa",
+    "welcome-message": "Vue.js Projesine Hoşgeldin",
+    "about": "Hakkında",
+    "about-message": "Hakkında sayfası karşılama mesajı",
+    "TheNavbar": {
+        "bulten": "SPOR BAHİSLERİ",
+        "canli": "CANLI BAHİSLER",
+        "sanal": "SANAL BAHİS",
+        "casino": "CASİNO",
+        "rulet": "RULET",
+        "tombala": "TOMBALA",
+        "tumkupon": "KUPONLAR",
+        "tv": "CANLI TV",
+        "sonuc": "MAÇ SONUÇLARI",
+        "lang": "Dil",
+        "slot": "SLOT"
+    },
+    "TheInfobar": {
+        "greeting": "Hoşgeldin,",
+        "atype": "Hesap Tipi",
+        "balance": "Bakiye",
+        "aday": "Kalan Hesap Süresi",
+        "online": "Aktif Üyeler",
+        "system": "Sistem Zamanı",
+        "lang": "Sistem Dili",
+        "logoalt": "Just Do It!",
+        "exit": "Çıkış Yap",
+        "logoimgalt": "İnsanın en iyisi, başkalarına en faydalı olanıdır."
+    },
+    "TheLeftMenu": {
+        "account-menu-title": "Hesabım",
+        "account-settings": "Hesap Ayarlarım",
+        "theme-manager": "Tema Seç",
+        "personalize": "Kişiselleştir",
+        "administration": {
+            "title": "Yönetim İşlemleri",
+            "newadmin": "Yeni Süper Admin",
+            "myadmins": "Süper Adminler",
+            "system-settings": "Sistem Ayarları",
+            "balance-log": "Bakiye Hareketleri",
+            "account-log": "Hesap Hareketleri",
+            "action-log": "Davranış Raporu",
+            "coupon-trash": "Çöpteki Kuponlar",
+            "massdelete-coupon": "Toplu Kupon Sil",
+            "coupon-analyze": "Yoğunluk Analizi"
+        },
+        "manage-games": {
+            "title": "Oyun İşlemleri",
+            "manage-matches": "Maç & Oran Yönetimi",
+            "manage-virtual": "Sanal Bahis Ayarları",
+            "manage-casino": "Casino Ayarları"
+        },
+        "other-settings": {
+            "title": "Diğer",
+            "all-network": "Tüm Ağ",
+            "announcements": "Duyurular",
+            "ip-lookup": "IP Sorgulama",
+            "online-users": "Sistemdekiler"
+        },
+        "boss-settings": {
+            "title": "Ana Admin",
+            "fix-result": "Sonuç Girişi",
+            "fix-result-live": "Canlı Sonuç Girişi",
+            "coupon-reports": "Kupon Bildirimleri",
+            "massedit-coupon": "Kupon Düzenleme",
+            "bultenapi": "Bülten API"
+        }
+    }
+}

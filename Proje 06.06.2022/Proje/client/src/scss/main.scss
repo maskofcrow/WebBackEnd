@@ -1,0 +1,102 @@
+@import "./base/typography";
+@import "themes/themes";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "layout/header";
+@import "layout/leftmenu";
+@import "login/login";
+// Bootsrap Grid
+@import "../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+body {
+    background-color: var(--background-color);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+#in-content {
+    width: 98%;
+    margin: 10px auto 0 auto;
+    min-width: 1280px;
+    max-width: 1400px;
+}
+
+#main-view {
+    width: 100%;
+    min-width: 818px;
+    max-width: 1130px;
+    background-color: var(--bulten-bg-color);
+    margin: 5px 5px 5px 0px;
+}
+
+.main {
+    display: flex;
+}
+
+.error-page {
+    padding: 11px;
+    color: #eee;
+    background: #cd0e0e;
+    margin-bottom: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    span {
+        display: flex;
+        align-items: center;
+        padding-right: 4px;
+    }
+}
+
+button {
+    padding: 4px 8px;
+    text-align: center;
+    border: 0px solid $light;
+    color: #333;
+    background-color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: "Roboto";
+    cursor: pointer;
+    &[disabled] {
+        cursor: not-allowed;
+    }
+    &.danger {
+        background-color: $primary;
+        color: $btn-white;
+    }
+    &.success {
+        background-color: $btn-success;
+        color: $btn-white;
+    }
+    &.info {
+        background-color: $btn-info;
+        color: $btn-white;
+    }
+}
+
+.langs {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+.langa {
+    img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px
+    }
+}
+
+a {
+    text-decoration: none !important;
+    &:hover {
+        text-decoration: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
